@@ -17,18 +17,29 @@ You can find complementary modules for handling bank payment related tasks on:
  * https://github.com/OCA/bank-payment
  
 [//]: # (addons)
+
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[account_check_printing_report_base](account_check_printing_report_base/) | 10.0.1.0.1 | Account Check Printing Report Base
+[account_check_printing_report_dlt103](account_check_printing_report_dlt103/) | 10.0.1.0.0 | Account Check Printing Report DLT103
+[account_due_list](account_due_list/) | 10.0.1.0.0 | Payments Due list
+[account_due_list_aging_comments](account_due_list_aging_comments/) | 10.0.1.0.0 | Payments Due list aging comments
+[account_due_list_days_overdue](account_due_list_days_overdue/) | 10.0.0.1.0 | Payments Due list days overdue
+[account_due_list_payment_mode](account_due_list_payment_mode/) | 10.0.1.0.0 | Payment due list with payment mode
+[account_partner_reconcile](account_partner_reconcile/) | 10.0.1.0.0 | Account Partner Reconcile
+[account_payment_batch_process](account_payment_batch_process/) | 10.0.1.0.0 | Process Payments in Batch
+[account_payment_credit_card](account_payment_credit_card/) | 10.0.1.0.0 | Add support for credit card payments
+[account_payment_return](account_payment_return/) | 10.0.1.1.0 | Manage the return of your payments
+[account_payment_return_import](account_payment_return_import/) | 10.0.1.0.0 | This module adds a generic wizard to import payment returnfile formats. Is only the base to be extended by anothermodules
+[account_payment_return_import_sepa_pain](account_payment_return_import_sepa_pain/) | 10.0.1.0.0 | Module to import SEPA Direct Debit Unpaid Report File Format PAIN.002.001.03
+
+
 Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[account_due_list](account_due_list/) | 8.0.0.1.0 (unported) | Payments Due list
-[account_due_list_payment_mode](account_due_list_payment_mode/) | 8.0.1.0.0 (unported) | Payment due list with payment mode
-[account_payment_order_to_voucher](account_payment_order_to_voucher/) | 8.0.1.0.0 (unported) | Payment order to voucher
-[account_payment_term_multi_day](account_payment_term_multi_day/) | 8.0.1.0.0 (unported) | Multiple payment days for payment terms
 [account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | VAT on payment
-[account_voucher_cash_basis](account_voucher_cash_basis/) | 8.0.1.0.0 (unported) | Cash basis extensions for vouchers
-[account_voucher_display_writeoff](account_voucher_display_writeoff/) | 1.0r089 (unported) | Account voucher display writeoff
-[account_voucher_supplier_invoice_number](account_voucher_supplier_invoice_number/) | 0.1 (unported) | Supplier invoice number in payment vouchers
-[account_voucher_tax_filter](account_voucher_tax_filter/) | 1.0r028 (unported) | Account voucher tax filter
 
 [//]: # (end addons)
