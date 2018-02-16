@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-31 01:11+0000\n"
-"PO-Revision-Date: 2017-01-17 19:46+0000\n"
+"POT-Creation-Date: 2017-02-11 00:19+0000\n"
+"PO-Revision-Date: 2017-03-23 20:09+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/oca/OCA-account-payment-8-0/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_due_list
 #: view:account.move.line:account_due_list.view_payments_filter
 msgid "Due Date"
-msgstr ""
+msgstr "Data venciment"
 
 #. module: account_due_list
 #: view:account.move.line:account_due_list.view_payments_filter
@@ -30,7 +30,7 @@ msgstr ""
 #. module: account_due_list
 #: view:account.move.line:account_due_list.view_payments_filter
 msgid "Group By..."
-msgstr ""
+msgstr "Agrupat per..."
 
 #. module: account_due_list
 #: help:account.move.line,payment_term_id:0
@@ -50,7 +50,7 @@ msgstr "Factura"
 #. module: account_due_list
 #: field:account.move.line,invoice_date:0
 msgid "Invoice Date"
-msgstr ""
+msgstr "Data factura"
 
 #. module: account_due_list
 #: field:account.move.line,invoice_user_id:0
