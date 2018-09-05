@@ -1,13 +1,11 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* account_due_list
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0\n"
+"Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12 08:17+0000\n"
-"PO-Revision-Date: 2013-11-12 08:17+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,38 +14,29 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Receivable"
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Due Date"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
+#: view:account.move.line:account_due_list.view_payments_filter
 msgid "From invoices"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Unreconciled payments"
-msgstr ""
-
-#. module: account_due_list
-#: view:account.move.line:0
-msgid "Payable payments"
-msgstr ""
-
-#. module: account_due_list
-#: view:account.move.line:0
-msgid "Unreconciled"
-msgstr ""
-
-#. module: account_due_list
-#: view:account.move.line:0
+#: view:account.move.line:account_due_list.view_payments_filter
 msgid "Group By..."
 msgstr ""
 
 #. module: account_due_list
-#: field:account.move.line,invoice_origin:0
-msgid "Source Doc"
+#: help:account.move.line,payment_term_id:0
+msgid "If you use payment terms, the due date will be computed automatically at the generation of accounting entries. If you keep the payment term and the due date empty, it means direct payment. The payment term may compute several due dates, for example 50% now, 50% in one month."
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+#: field:account.move.line,stored_invoice_id:0
+msgid "Invoice"
 msgstr ""
 
 #. module: account_due_list
@@ -56,19 +45,8 @@ msgid "Invoice Date"
 msgstr ""
 
 #. module: account_due_list
-#: code:addons/account_due_list/account_move_line.py:42
-#, python-format
-msgid "Incongruent data: move %s has more than one invoice"
-msgstr ""
-
-#. module: account_due_list
-#: view:account.move.line:0
-msgid "Payable"
-msgstr ""
-
-#. module: account_due_list
-#: view:account.move.line:0
-msgid "Search Payments"
+#: field:account.move.line,invoice_user_id:0
+msgid "Invoice salesperson"
 msgstr ""
 
 #. module: account_due_list
@@ -77,29 +55,53 @@ msgid "Journal Items"
 msgstr ""
 
 #. module: account_due_list
-#: field:account.move.line,day:0
-msgid "Day"
+#: help:account.move.line,invoice_date:0
+msgid "Keep empty to use the current date"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Month"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Overdue"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
 msgid "Overdue payments"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Total Debit"
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Partner"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
+#: field:account.move.line,partner_ref:0
+msgid "Partner Ref"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Payable"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Payable payments"
+msgstr ""
+
+#. module: account_due_list
+#: field:account.move.line,payment_term_id:0
+msgid "Payment Terms"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_tree
 msgid "Payments"
-msgstr ""
-
-#. module: account_due_list
-#: code:addons/account_due_list/account_move_line.py:41
-#, python-format
-msgid "Error"
 msgstr ""
 
 #. module: account_due_list
@@ -109,48 +111,67 @@ msgid "Payments and due list"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Overdue"
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Receivable"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
+#: view:account.move.line:account_due_list.view_payments_filter
 msgid "Receivable payments"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Due date"
+#: help:account.move.line,invoice_origin:0
+msgid "Reference of the document that produced this invoice."
 msgstr ""
 
 #. module: account_due_list
-#: field:account.move.line,payment_term_id:0
-msgid "Payment Term"
+#: field:account.move.line,maturity_residual:0
+msgid "Residual Amount"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Month"
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Salesperson"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Search Payments"
+msgstr ""
+
+#. module: account_due_list
+#: field:account.move.line,invoice_origin:0
+msgid "Source Doc"
+msgstr ""
+
+#. module: account_due_list
+#: help:account.move.line,maturity_residual:0
+msgid "The residual amount on a receivable or payable of a journal entry expressed in the company currency."
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_tree
 msgid "Total Credit"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-#: field:account.move.line,stored_invoice_id:0
-msgid "Invoice"
+#: view:account.move.line:account_due_list.view_payments_tree
+msgid "Total Debit"
 msgstr ""
 
 #. module: account_due_list
-#: view:account.move.line:0
-msgid "Partner"
+#: view:account.move.line:account_due_list.view_payments_tree
+msgid "Total Residual"
 msgstr ""
 
 #. module: account_due_list
-#: field:account.move.line,partner_ref:0
-msgid "Partner Ref"
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Unreconciled"
+msgstr ""
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Unreconciled payments"
 msgstr ""
 
